@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+.top-wrapper {
+  height: 500px;
+  background-image: url(portfolio.jpg);
+  background-size: cover;
+}
+
+.main-wrapper {
+  height: 500px;
+}
+
+.float {
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  left: 200px;
+  object-fit: cover;
+}
+
+.container li {
+  display: flex;
+  position: relative;
+  left: 700px;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+.list {
+  font-size: 40px;
+  text-align: center;
+}
+
+.lesson-wrapper {
+  height: 500px;
+  background-color: #f3f2f2;
+}
+
+.lesson-text h1 {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.lesson-text p {
+  font-size: 24px;
+  padding-left: 30px;
+}
+
+.contents {
+  height: 300px;
+}
+
+.contents h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.icon {
+  display: inline-block;
+  font-size: 150px;
+  color: lightblue;
+  margin-top: 20px;
+  margin-left: 270px;
+  cursor: pointer;
+}
+
+.insta {
+  display: inline-block;
+  font-size: 150px;
+  color: pink;
+  margin-left: 270px;
+  cursor: pointer;
+}
+
+.mail {
+  display: inline-block;
+  font-size: 150px;
+  margin-left: 270px;
+  color: black;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
+
+.footer {
+  height: 80px;
+  background-color: #e6f0f0;
+  color: #cc0000;
+}
+
+.footer-logo {
+  padding-left: 20px;
+  float: left;
+}
+
+.footer a {
+  float: left;
+  padding-left: 200px;
+  padding-top: 30px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  opacity: 0.5;
+  text-decoration: underline;
+}
